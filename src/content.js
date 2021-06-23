@@ -1,6 +1,6 @@
 
 const chatmessages = document.getElementsByClassName('text-fragment');
-const chat = document.getElementsByClassName('chat-scrollable-area__message-container tw-flex-grow-1 tw-pd-b-1');
+const chat = document.getElementsByClassName('chat-scrollable-area__message-container');
 
 
 var regexMoves = new RegExp(/((?:(?:O-O[-O]?)|(?:[KQNBRkqnbr][a-h]?x?[a-h]x?[1-8])|(?:[a-hA-H]x?[a-hA-H]?[1-8]))\+?)\#?/g, 'gi')
